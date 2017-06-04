@@ -1,0 +1,27 @@
+.main-footer__description {
+  float: left;
+  width: 1300px;
+}
+
+
+.footer {
+  &__logo {
+    float: left;
+    margin-top: 8px;
+    margin-left: 13px;
+    width: 56px;
+  }
+  &__text {
+    float: left;
+    margin: 0;
+    width: 830px;
+    font-size: 12.5px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+  &__friends {
+    float: right;
+    margin-top: -20px;
+    width: 150px;
+  }
+}

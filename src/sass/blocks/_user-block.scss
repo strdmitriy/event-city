@@ -1,0 +1,37 @@
+.user-block {
+  float: right;
+  width: 200px;
+}
+
+.user-block__search {
+  position: relative;
+  border: none;
+  outline: none;
+  background: #ffffff;
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 35px;
+      height: 35px;
+      top: 15px;
+      left: 5px;
+      background-image: url(../img/search.png);
+      background-repeat: no-repeat;
+      cursor: pointer;
+  }
+}
+.user-block__foto {
+  position: relative;
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 37px;
+    height: 39px;
+    top: 27px;
+    left: 53px;
+    background-image: url(../img/user_img.png);
+    background-repeat: no-repeat;
+  }
+}

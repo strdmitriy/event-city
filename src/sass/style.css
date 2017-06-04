@@ -1,0 +1,15 @@
+@import "global/_mixin.scss";
+@import "global/_global.scss";
+@import "global/_fonts.scss";
+@import "blocks/_normalize.scss";
+@import "blocks/_main-header.scss";
+@import "blocks/_main-navigation.scss";
+@import "blocks/_logo.scss";
+@import "blocks/_user-block.scss";
+@import "blocks/_description.scss";
+@import "blocks/_event.scss";
+@import "blocks/_mounth.scss";
+@import "blocks/_breadcrumb.scss";
+@import "blocks/_main-footer.scss";
+@import "blocks/_toggle.scss";
+@import "blocks/_social.scss";

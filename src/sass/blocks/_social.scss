@@ -1,0 +1,47 @@
+.social {
+  float: left;
+  width: 160px;
+  a {
+    position: relative;
+  }
+}
+
+.vk::before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	top: 11px;
+	right: -111px;
+	background: url("../img/social.png") no-repeat -85px 3px;
+}
+
+.tw::before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	top: 11px;
+	right: -66px;
+	background: url("../img/social.png") no-repeat -41px 3px;
+}
+
+.fb::before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	top: 11px;
+	right: -150px;
+	background: url("../img/social.png") no-repeat -124px 3px;
+}
+
+.ins::before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	top: 11px;
+	right: -26px;
+	background: url("../img/social.png") no-repeat 0px 4px;
+}
